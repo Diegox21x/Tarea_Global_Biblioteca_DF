@@ -1,0 +1,14 @@
+{
+  "settings": {"maxBooks": 3, "loanDays": 14},
+  "users": [
+    {"id": 1, "name": "Admin", "email": "admin@biblioteca.local", "role": "admin", "penaltyUntil": null, "lateReturns": 0},
+    {"id": 2, "name": "Ana Lectura", "email": "ana@biblioteca.local", "role": "user", "penaltyUntil": null, "lateReturns": 1}
+  ],
+  "books": [
+    {"id": 1, "title": "Cien años de soledad", "author": "G. G. Márquez", "available": true, "timesLoaned": 4},
+    {"id": 2, "title": "Don Quijote de la Mancha", "author": "M. de Cervantes", "available": true, "timesLoaned": 3},
+    {"id": 3, "title": "Rayuela", "author": "J. Cortázar", "available": true, "timesLoaned": 2}
+  ],
+  "loans": [],
+  "penalties": []
+}
